@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardrobe Genie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>👗 Wardrobe Genie</h1>
+
+        <!-- Upload Outfit Section -->
+        <input type="file" id="uploadImage" accept="image/*">
+        <button onclick="uploadOutfit()">Upload Outfit</button>
+        
+        <!-- Preferences Section -->
+        <div class="preferences">
+            <label>Weather:</label>
+            <select id="weather">
+                <option value="Sunny">Sunny</option>
+                <option value="Rainy">Rainy</option>
+                <option value="Cold">Cold</option>
+            </select>
+
+            <label>Color Combination:</label>
+            <select id="color">
+                <option value="Bright">Bright</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Dark">Dark</option>
+            </select>
+
+            <label>Profession:</label>
+            <select id="profession">
+                <option value="Student">Student</option>
+                <option value="Working">Working Professional</option>
+            </select>
+        </div>
+
+        <!-- Suggest Outfit Button -->
+        <button onclick="suggestOutfit()">Suggest Outfit</button>
+
+        <!-- Display Suggested Outfit -->
+        <div id="suggestedOutfit"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
