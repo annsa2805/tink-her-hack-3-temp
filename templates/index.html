@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardrobe Genie</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>👗  WARDROBE GENIE  👗</h1>
+
+    <!-- Image Upload Section -->
+    <input type="file" id="imageUpload" multiple>
+    <button onclick="uploadImages()">Upload</button>
+    <div id="uploadStatus"></div>
+    <div id="imagePreview"></div>
+
+    <h2>Select Preferences</h2>
+
+    <!-- Preferences -->
+    <label>Weather:</label>
+    <select id="weather">
+        <option value="Sunny">Sunny</option>
+        <option value="Rainy">Rainy</option>
+        <option value="Cold">Cold</option>
+    </select>
+
+    <label>Brightness:</label>
+    <select id="brightness">
+        <option value="Bright">Bright</option>
+        <option value="Neutral">Neutral</option>
+        <option value="Dark">Dark</option>
+    </select>
+
+    <label>Profession:</label>
+    <select id="profession">
+        <option value="Student">Student</option>
+        <option value="Working">Working</option>
+    </select>
+
+    <button onclick="fetchBestOutfit()">Find Best Outfit</button>
+
+    <h2>Suggested Outfit</h2>
+    <img id="suggestedOutfit" src="" alt="Best outfit will be displayed here">
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
