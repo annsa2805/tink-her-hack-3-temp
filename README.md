@@ -14,7 +14,7 @@
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+
  A website where we can upload our outfit pics and then an generates suggestions 
 
 ### The Problem statement
