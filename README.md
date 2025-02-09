@@ -1,16 +1,12 @@
-# [Project Name] 🎯
 # WARDROBE GENIE🎯
 
 
 ## Basic Details
-### Team Name: [Name]
 ### Team Name: InnovHer
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+
 - Member 1: Ann Saniya Rose Thomas- SCMS School of Engineering and Technology
 - Member 2: Amrutha E J - SCMS School Of Engineering and Technology
 
